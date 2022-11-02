@@ -51,6 +51,8 @@ func main() {
 ```
 ## Integrated
 ```go
+package main
+
 import "github.com/yxl-prz/WallpaperEngineConfigStruct"
 
 type Config struct {
@@ -70,7 +72,7 @@ func main() {
     
 	WallpaperEngineConfig.MyComputerUser.General.Browser.ViewIconSize = WallpaperEngine.ViewIconSize_Medium
 
-	err = WallpaperEngine.Save(path_to_config, WallpaperEngineConfig)
+	err = WallpaperEngine.Save(config_path, WallpaperEngineConfig)
 
 	if err != nil {
 		// Handle Error
