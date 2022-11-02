@@ -1,6 +1,9 @@
 # WallpaperEngineConfigStruct
 Structure of Wallpaper Engine's config file.
 
+# Warning
+Properties that are not structured will NOT be saved. you may lose data if you use this version of WallpaperEngineConfigStruct
+
 # Installation
 ```
 go get github.com/yxl-prz/WallpaperEngineConfigStruct
